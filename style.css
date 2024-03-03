@@ -1,0 +1,54 @@
+div#wrapper>div {
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.section {
+    position: relative;
+    max-width: 500px;
+}
+#wrapper{
+    max-width: 500px;
+    width: 100%;
+}
+#text{
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+#submit{
+    position: absolute;
+    top: 0;
+    right: -24px;
+    padding: 0 20px;
+    background-color: green;
+    color: #fff;
+    height: 100%;
+}
+.wrapper-inr{
+    padding: 5px;
+    min-width: 280px;
+}
+input.checkbox {
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+}
+.disabled {
+  pointer-events:none;
+  color:#242424 !important;
+  background:#a6a6a6 !important;
+}
+.delete{
+    background-color: rgb(238, 27, 27);
+}
+.edit{
+    background-color: rgb(12, 176, 226);
+}
+.act-btn{
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
